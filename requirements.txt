@@ -1,3 +1,4 @@
+# Adicionar aplicação IMC e configuração do pipeline
 # requirements.txt
 pyinstaller
 pytest

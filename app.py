@@ -1,3 +1,4 @@
+# Adicionar aplicação IMC e configuração do pipeline
 # app.py
 def calcular_imc(peso, altura):
     """Calcula o IMC a partir do peso (kg) e altura (m)."""
@@ -20,6 +21,6 @@ def main():
     imc = calcular_imc(peso, altura)
     classificacao = classificar_imc(imc)
     print(f"Seu IMC é: {imc:.2f} - {classificacao}")
-
+    
 if __name__ == "__main__":
     main()
